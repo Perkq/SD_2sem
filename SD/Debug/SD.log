@@ -1,0 +1,28 @@
+﻿Сборка начата 18.02.2022 18:34:52.
+Уровень детализации журнала: Normal.     1>Проект "D:\Прога\2 семестр\SD\Sdacha lab\SD\SD.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\SD.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\Прога\2 семестр\SD\Sdacha lab\SD\Source.cpp(57): warning C4717: rec: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+     1>D:\Прога\2 семестр\SD\Sdacha lab\SD\Source.cpp(57): warning C4715: rec: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Прога\2 семестр\SD\Sdacha lab\SD\Debug\SD.exe" /INCREMENTAL /ILK:"Debug\SD.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Прога\2 семестр\SD\Sdacha lab\SD\Debug\SD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Прога\2 семестр\SD\Sdacha lab\SD\Debug\SD.lib" /MACHINE:X86 Debug\Source.obj
+         SD.vcxproj -> D:\Прога\2 семестр\SD\Sdacha lab\SD\Debug\SD.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SD.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SD.tlog\SD.lastbuildstate".
+     1>Сборка проекта "D:\Прога\2 семестр\SD\Sdacha lab\SD\SD.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Прога\2 семестр\SD\Sdacha lab\SD\SD.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Прога\2 семестр\SD\Sdacha lab\SD\Source.cpp(57): warning C4717: rec: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+         D:\Прога\2 семестр\SD\Sdacha lab\SD\Source.cpp(57): warning C4715: rec: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.35

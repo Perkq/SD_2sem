@@ -1,0 +1,33 @@
+﻿Сборка начата 27.05.2022 18:41:09.
+Уровень детализации журнала: Normal.     1>Проект "D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\SD_Lab06.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\SD_Lab06.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\Source.cpp(6,1): warning C4005: INT_MAX: изменение макроопределения
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h(36): message : см. предыдущее определение "INT_MAX"
+     1>D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\Source.cpp(19,20): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\Source.cpp(125,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\Source.cpp(152,10): warning C4804: <: небезопасное использование типа "bool" в операции
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\Debug\SD_Lab06.exe" /INCREMENTAL /ILK:"Debug\SD_Lab06.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\Debug\SD_Lab06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\Debug\SD_Lab06.lib" /MACHINE:X86 Debug\Source.obj
+         SD_Lab06.vcxproj -> D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\Debug\SD_Lab06.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SD_Lab06.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SD_Lab06.tlog\SD_Lab06.lastbuildstate".
+     1>Сборка проекта "D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\SD_Lab06.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\SD_Lab06.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\Source.cpp(6,1): warning C4005: INT_MAX: изменение макроопределения
+         D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\Source.cpp(19,20): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\Source.cpp(125,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\Прога\2 семестр\SD\Sdacha lab\SD_Lab06Sol\SD_Lab06\Source.cpp(152,10): warning C4804: <: небезопасное использование типа "bool" в операции
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:01.61
